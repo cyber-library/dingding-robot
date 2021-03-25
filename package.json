@@ -8,6 +8,9 @@
     "watch": "gulp --f gulpfile.watch.js",
     "build": "gulp --f gulpfile.build.js"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "cyber",
     "shicheng.yu"
