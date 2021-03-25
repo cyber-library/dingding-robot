@@ -1,6 +1,6 @@
 {
   "name": "@cyber-library/dingding-robot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "钉钉机器人相关sdk",
   "main": "./dist/",
   "scripts": {
