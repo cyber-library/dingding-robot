@@ -6,7 +6,8 @@
   "scripts": {
     "remove": "del dist",
     "watch": "gulp --f gulpfile.watch.js",
-    "build": "gulp --f gulpfile.build.js"
+    "build": "gulp --f gulpfile.build.js",
+    "test": "node ./example/test.js"
   },
   "publishConfig": {
     "access": "public",
@@ -32,11 +33,12 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
+    "axios": "^0.21.1",
     "crypto-js": "4.0.0",
-    "urlencode": "1.1.0",
     "deep-extend": "0.6.0",
     "lodash": "4.17.19",
     "moment": "2.27.0",
+    "urlencode": "1.1.0",
     "uuid": "8.2.0"
   }
 }
