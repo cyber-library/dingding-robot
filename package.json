@@ -9,6 +9,7 @@
     "build": "gulp --f gulpfile.build.js"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
