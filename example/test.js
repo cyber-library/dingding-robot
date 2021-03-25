@@ -9,9 +9,13 @@ const {getDingDingSignFromSecret,push_message}=require("../dist");
     timestamp,
     sign,
     data:{
-      msgtype:"text",
-      text:{
-        content:"sdjkadjsahdjk"
+      msgtype:"markdown",
+      markdown:{
+        title:"asdasdas",
+        text:[
+          "# 一级标题",
+          "> 强调"
+        ].join("\n")
       }
     }
   });
