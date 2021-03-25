@@ -40,5 +40,9 @@
     "moment": "2.27.0",
     "urlencode": "1.1.0",
     "uuid": "8.2.0"
+  },
+  "repository": {
+    "type": "github.com",
+    "url": "https://github.com/cyber-library/dingding-robot.git"
   }
 }
